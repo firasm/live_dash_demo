@@ -136,7 +136,7 @@ app.layout = html.Div([
                    verticalAlign="middle")
         ),
     
-# ]) # Commented out Line 139 to create bug on purpose
+ ]) # Commented out Line 139 to create bug on purpose
 
 @app.callback(
     dash.dependencies.Output('plot', 'srcDoc'),
